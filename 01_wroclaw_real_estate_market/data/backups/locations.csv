@@ -1,0 +1,49 @@
+RESIDENTIAL_AREA,DISTRICT,LATITUDE,LONGITUDE,CLUSTER
+Gajowice,Fabryczna,51.0963987,17.003334,0
+Gądów-Popowice Południowe,Fabryczna,51.1283924,16.9608257,1
+Grabiszyn-Grabiszynek,Fabryczna,51.09142505,16.982332224814517,2
+Jerzmanowo-Jarnołtów-Strachowice-Osiniec,Fabryczna,51.1206323,16.8743179,3
+Kuźniki,Fabryczna,51.1238302,16.9482349,4
+Leśnica,Fabryczna,51.1521376,16.8658752,5
+Maślice,Fabryczna,51.1594089,16.9335597,6
+Muchobór Mały,Fabryczna,51.106643,16.9753431,7
+Muchobór Wielki,Fabryczna,51.096473,16.9440541,8
+Nowy Dwór,Fabryczna,51.1151007,16.9510738,9
+Oporów,Fabryczna,51.0781996,16.9612785,10
+Pilczyce-Kozanów-Popowice Północne,Fabryczna,51.1384358,16.9575639,11
+Pracze Odrzańskie,Fabryczna,51.1740406,16.9099149,12
+Żerniki,Fabryczna,51.1202537,16.9171207,13
+Bieńkowice,Krzyki,51.049829,17.0917411,14
+Borek,Krzyki,51.0802406,17.0116617,15
+Brochów,Krzyki,51.0618136,17.0812722,16
+Gaj,Krzyki,51.0773777,17.0377732,17
+Huby,Krzyki,51.0894011,17.0383771,18
+Jagodno,Krzyki,51.0580947,17.0617467,19
+Klecina,Krzyki,51.0619612,16.972629,20
+Krzyki-Partynice,Krzyki,51.0711937,17.0043425,21
+Księże,Krzyki,51.0768822,17.0837213,22
+Ołtaszyn,Krzyki,51.0565748,17.0220009,23
+Powstańców Śląskich,Krzyki,51.0931937,17.0207054,24
+Przedmieście Oławskie,Krzyki,51.0988406,17.0575542,25
+Tarnogaj,Krzyki,51.0811037,17.0598415,26
+Wojszyce,Krzyki,51.0607048,17.0418149,27
+Karłowice-Różanka,Psie Pole,51.1384595,17.0601177,28
+Kleczków,Psie Pole,51.1289451,17.0278591,29
+Kowale,Psie Pole,51.1320703,17.1017765,30
+Lipa Piotrowska,Psie Pole,51.1741514,16.9953715,31
+Osobowice-Rędzin,Psie Pole,51.1459269,16.9889971,32
+Pawłowice,Psie Pole,51.1663349,17.1068453,33
+Polanowice-Poświętne-Ligota,Psie Pole,51.1638814,17.0477041,34
+Psie Pole-Zawidawie,Psie Pole,51.1459988,17.114733,35
+Sołtysowice,Psie Pole,51.1529662,17.0741942,36
+Swojczyce-Strachocin-Wojnów,Psie Pole,51.1139062,17.1285432,37
+Świniary,Psie Pole,51.1938798,16.9713967,38
+Widawa,Psie Pole,51.1705733,17.0147003,39
+Przedmieście Świdnickie,Stare Miasto,51.1036613,17.0223087,40
+Stare Miasto,Stare Miasto,51.1107328,17.0366346,41
+Szczepin,Stare Miasto,51.1167419,17.0061692,42
+Biskupin-Sępolno-Dąbie-Bartoszowice,Śródmieście,51.1021077,17.1038155,43
+Nadodrze,Śródmieście,51.1204317,17.0303538,44
+Ołbin,Śródmieście,51.1232246,17.055228,45
+Plac Grunwaldzki,Śródmieście,51.111754399999995,17.06064622329033,46
+Zacisze-Zalesie-Szczytniki,Śródmieście,51.1241593,17.0759953,47
