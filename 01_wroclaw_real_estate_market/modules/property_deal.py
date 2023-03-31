@@ -179,7 +179,7 @@ def predict_prices_per_m2(df: pd.DataFrame):
     print(f'Number of loaded offers: {df.shape[0]}')
 
     # loading model
-    with open('models/rf_price_per_m2_prediction_final.pkl', 'rb') as f:
+    with open('models/rf_price_per_m2_prediction.pkl', 'rb') as f:
         model_rf_price_per_m2 = joblib.load(f)
     
     df['PREDICTED_PRICE_PER_M2'] = model_rf_price_per_m2.predict(df.drop(columns=['SLUG', 'PRICE', 'PRICE_PER_M2']))
