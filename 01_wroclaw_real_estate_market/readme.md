@@ -8,9 +8,12 @@ The main goals of the project:<br>
 
 
 The project is divided into 5 parts:
-
-1. Scraping offers
+Part 1 is additional, 
+1. Scraping offers* 
 2. Preprocessing and data exploration
 3. Building model to predict missing values
 4. Building final model to evaluate offer prices
 5. Combining all the previous elements into one tool that scrapes offers and determines which may be bargains on the market
+
+
+*Part 01 is optional. The actual project begins from part 02 on previously prepared files from the data folder
