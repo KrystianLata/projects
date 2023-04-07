@@ -17,7 +17,7 @@ Do rozwiązania problemu klasyfikacji stworzoyn został model zawierający:
 * 4 warstwy splotowe
 * 4 warstwy MaxPooling
 * warstą flatten
-# 2 warstwami dense, z 512 neuronami w pierwszej z nich
+* 2 warstwami dense, z 512 neuronami w pierwszej z nich
 
 Model został skompilowany przy użycio opimizera RMSprop, z ustawionym checkpointem zapisującym najlepszy z modeli
 
@@ -36,10 +36,17 @@ Możliwe byłoby spróbowanie trenowania modelu przez większą liczbę epok, kt
 
 Ostatecznie skrypt generuje wykres krzywych uczenia na zbiorze trenignowym i walidacyjnym. Zgodnie z wykresem model nie ma problemu z overfittingiem ani underfittingiem
 
+Następnie skrypt generuje 10 losowych predykcji z opisem jaka była wartość rzeczywista, a jaka przewidziana. 
 
-Na samym końcu skryp zwaca 10 przykłaowych predykcji z opisem jaka była wartość rzeczywista, a jaka przewidziana. 
 
-W modelu zostały wykorzystanne następujace biblioteki
+Podsumowując, metryki modelu i wykres krzywych uczenia wskazują na to, że model jest odpowiednio przetrenowany i dobrze radzi sobie z klasyfikacją obrazów z dostarczonego zbioru.
+Model sieci neuronowej po uruomieniu skryptu zapisze się w podfolderze best_model (nie został dodany do repozytorium ze wzgledu na zbyt duży rozmiar)
+
+
+
+
+
+W projekcie zostały wykorzystanne następujace biblioteki
 
 - tensorflow==2.7.0
 - scikit-learn
@@ -49,6 +56,3 @@ W modelu zostały wykorzystanne następujace biblioteki
 - numpy
 - os
 - Pillow 
-
-Podsumowując, metryki modelu i wykres krzywych uczenia wskazują na to, że model jest odpowiednio przetrenowany i dobrze radzi sobie z klasyfikacją obrazów z dostarczonego zbioru.
-Model sieci neuronowej po uruomieniu skryptu zapisze się w podfolderze best_model (nie został dodany do repozytorium ze wzgledu na zbyt duży rozmiar)
