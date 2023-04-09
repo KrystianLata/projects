@@ -56,6 +56,11 @@ for i, class_name in enumerate(class_names):
 data = np.array(data) / 255.0
 len(data)
 
+# podziałdanych w proporcji 8:1:1
+# 80% na dane treningowe, 20% pozostaje do dalszego podziału
+train_data, test_data, train_labels, test_labels = train_test_split(data, labels, test_size=0.2, stratify=labels, random_state=42) 
+# podział pozostałych danych na połowę, co daje po 10% na test i walidacje
+val_data, test_data, val_labels, test_labels = train_test_split(test_data, test_labels, test_size=0.5, stratify=test_labels, random_state=42) 
 # stworzenie generatora do augmentacji
 train_datagen  = ImageDataGenerator(
     rotation_range=10,      # zakres kąta o który losowo zostanie wykonany obrót obrazów
@@ -68,15 +73,7 @@ train_datagen  = ImageDataGenerator(
     fill_mode='nearest'     # strategia wypełniania nowo utworzonych pikseli, któe mogą powstać w wyniku przekształceń
 )
 
-train_datagen.fit(data)
-
-
-# podziałdanych w proporcji 8:1:1
-# 80% na dane treningowe, 20% pozostaje do dalszego podziału
-train_data, test_data, train_labels, test_labels = train_test_split(data, labels, test_size=0.2, stratify=labels, random_state=42) 
-# podział pozostałych danych na połowę, co daje po 10% na test i walidacje
-val_data, test_data, val_labels, test_labels = train_test_split(test_data, test_labels, test_size=0.5, stratify=test_labels, random_state=42) 
-
+train_datagen.fit(train_data)
 
 # dostosowanie etykiet do formatu one-hot
 train_labels = to_categorical(train_labels, num_classes=4)
